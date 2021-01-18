@@ -1,0 +1,48 @@
+h1 {
+  font-size: 46px;
+  margin-right: 20px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  font-size: 46px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid #6f7886;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+  font-weight: bold;
+  color: #6f7886;
+}
+
+input:focus {
+  outline: none;
+}
+
+button {
+  height: 58px;
+  width: 58px;
+  border: none;
+  background-color: transparent;
+}
+
+button:focus {
+  outline: none;
+}
+
+.searchForm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.errorMessage > p {
+  color: red;
+  text-align: center;
+}
