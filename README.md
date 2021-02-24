@@ -1,3 +1,5 @@
+# Made in January 2020
+
 [Create React App](https://github.com/facebook/create-react-app).
 
 ## Stack
